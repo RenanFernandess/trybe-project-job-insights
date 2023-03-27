@@ -99,4 +99,12 @@ def filter_by_salary_range(
     list
         Jobs whose salary range contains `salary`
     """
-    raise NotImplementedError
+    result = list()
+    for job in jobs:
+        try:
+            if matches_salary_range(job, salary=salary):
+                result.append(job)
+        finally:
+            continue
+
+    return result
