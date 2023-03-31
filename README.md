@@ -39,7 +39,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 
 ## Sobre o Projeto
 
-Neste projeto foi implementado análises a partir de um conjunto de dados sobre empregos. Minhas implementações foram incorporadas a um aplicativo Web desenvolvido com Flask (um framework web muito popular na comunidade Python). Também tive a oportunidade de escrever testes para a implementação de uma análise de dados. Por fim, como bônus, tive o desafio de escrever uma rota e view para um recurso novo usando Flask!
+Neste projeto implementei análises a partir de um conjunto de dados sobre empregos. Minhas implementações foram incorporadas a um aplicativo Web desenvolvido com Flask (um framework web muito popular na comunidade Python). Também tive a oportunidade de escrever testes para a implementação de uma análise de dados. Por fim, como bônus, tive o desafio de escrever uma rota e view para um recurso novo usando Flask!
 
 > Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma plataforma disponibilizando conjuntos de dados para cientistas de dados.
 
