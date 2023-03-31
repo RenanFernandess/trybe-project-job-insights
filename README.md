@@ -41,7 +41,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 
 Neste projeto foi implementado análises a partir de um conjunto de dados sobre empregos. Minhas implementações foram incorporadas a um aplicativo Web desenvolvido com Flask (um framework web muito popular na comunidade Python). Também tive a oportunidade de escrever testes para a implementação de uma análise de dados. Por fim, como bônus, tive o desafio de escrever uma rota e view para um recurso novo usando Flask!
 
-Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma plataforma disponibilizando conjuntos de dados para cientistas de dados.
+> Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma plataforma disponibilizando conjuntos de dados para cientistas de dados.
 
 ### Habilidades trabalhadas
 
@@ -57,8 +57,10 @@ Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma pl
 
 ### Construido Com
 
- * python
+ * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
  * pytest
+ * ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+ * ![Jinja](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)
  
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
@@ -68,11 +70,11 @@ Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma pl
 
   1. Clonar o repositorio
 
-    git clone git@github.com:RenanFernandess/project-
+    git clone git@github.com:RenanFernandess/trybe-project-job-insights.git
 
-  2. Entrar na pasta project-
+  2. Entrar na pasta project-job-insights
   
-    cd ./project-
+    cd ./project-job-insights
 
 ### Ambiente virtual
 O Python oferece um recurso chamado de ambiente virtual, onde permite sua máquina rodar sem conflitos, diferentes tipos de projetos com diferentes versões de bibliotecas.
