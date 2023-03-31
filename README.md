@@ -26,7 +26,9 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
       <a href="#começando">Começando</a>
       <ul>
         <li><a href="#instalação">Instalação</a></li>
+        <li><a href="#ambiente-virtual">Ambiente virtual</a></li>
         <li><a href="#executando">Executando</a></li>
+        <li><a href="#tests">Tests</a></li>
       </ul>
     </li>
     <li><a href="#uso">Uso</a></li>
@@ -62,6 +64,16 @@ Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma pl
 
 ## Começando
 
+### Instalação
+
+  1. Clonar o repositorio
+
+    git clone git@github.com:RenanFernandess/project-
+
+  2. Entrar na pasta project-
+  
+    cd ./project-
+
 ### Ambiente virtual
 O Python oferece um recurso chamado de ambiente virtual, onde permite sua máquina rodar sem conflitos, diferentes tipos de projetos com diferentes versões de bibliotecas.
 
@@ -84,7 +96,7 @@ O Python oferece um recurso chamado de ambiente virtual, onde permite sua máqui
   ```
 
   > Com o seu ambiente virtual ativo, as dependências serão instaladas neste ambiente.
-  Quando precisar desativar o ambiente virtual, execute o comando "deactivate". Lembre-se de ativar novamente quando voltar a trabalhar no projeto.
+  Quando precisar desativar o ambiente virtual, execute o comando `deactivate`. Lembre-se de ativar novamente quando voltar a trabalhar no projeto.
 
 
 ### Executando
@@ -109,12 +121,15 @@ Você pode rodar a aplicação flask para visualizar no navegador o resultado do
   $ python3 -m pytest
   ```
 
-  O arquivo `pyproject.toml` já configura corretamente o pytest. Entretanto, caso você tenha problemas com isso e queira explicitamente uma saída completa, o comando é:
+  <details>
+  <summary>Mais comandos</summary>
+  
+   O arquivo `pyproject.toml` já configura corretamente o pytest. Entretanto, caso você tenha problemas com isso e queira explicitamente uma saída completa, o comando é:
 
   ```bash
   python3 -m pytest -s -vv
   ```
-
+  
   Caso precise executar apenas um arquivo de testes basta executar o comando:
 
   ```bash
@@ -139,5 +154,20 @@ Você pode rodar a aplicação flask para visualizar no navegador o resultado do
   python3 -m pytest tests/nomedoarquivo.py::test_nome_do_teste
   ```
   
+</details>
+  
+
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
   
+## Contato
+
+* Renan Fernandes - [Linkedin](https://www.linkedin.com/in/orenanfernandes/) - renzinestuods@gmail.com
+
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+
+## Agradecimentos
+
+* [Trybe](https://www.betrybe.com/)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
